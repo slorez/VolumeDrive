@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VolumeDrive", "VolumeDrive\VolumeDrive.csproj", "{3A022868-6ECD-415D-A2B0-D98B002D9301}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VolumeDrive", "VolumeDrive\VolumeDrive.csproj", "{3A022868-6ECD-415D-A2B0-D98B002D9301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfVolumeDriveTest", "WpfVolumeDriveTest\WpfVolumeDriveTest.csproj", "{2CE0A7B9-2577-4B82-B95C-37A0FE683A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{6892CB06-040D-4618-9802-9D3F11C3E8E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3A022868-6ECD-415D-A2B0-D98B002D9301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A022868-6ECD-415D-A2B0-D98B002D9301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A022868-6ECD-415D-A2B0-D98B002D9301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE0A7B9-2577-4B82-B95C-37A0FE683A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE0A7B9-2577-4B82-B95C-37A0FE683A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE0A7B9-2577-4B82-B95C-37A0FE683A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE0A7B9-2577-4B82-B95C-37A0FE683A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6892CB06-040D-4618-9802-9D3F11C3E8E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6892CB06-040D-4618-9802-9D3F11C3E8E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6892CB06-040D-4618-9802-9D3F11C3E8E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6892CB06-040D-4618-9802-9D3F11C3E8E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
