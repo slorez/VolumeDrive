@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace VolumeDrive.ViewModel.Base
+namespace VolumeDrive.ViewModels.Base
 {
     internal abstract class ViewModel : INotifyPropertyChanged, IDisposable
     {
