@@ -8,10 +8,8 @@ namespace ConsoleTest.Infrastructure.Shaping
         private const double Pi = Math.PI;
         private double r { get; }
         public Circle(double r) => this.r = r;
-        /// <summary>
-        /// Площадь окружности
-        /// </summary>
-        /// <returns></returns>
+        /// <summary> Площадь окружности</summary>
+        /// <returns> Возвращает целое значение int</returns>
         internal override int GetArea() => (int)(Pi * (r * r));
     }
 }
