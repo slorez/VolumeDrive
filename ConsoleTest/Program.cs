@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsoleTest.Infrastructure.Shaping;
 
 namespace ConsoleTest
 {
@@ -6,7 +7,8 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Square ShapeSquare = new Square(124);
+            Circle ShapeCircel = new Circle(5);
         }
     }
 }
