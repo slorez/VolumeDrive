@@ -7,8 +7,10 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            Square ShapeSquare = new Square(124);
             Circle ShapeCircel = new Circle(5);
+            Square ShapeSquare = new Square(124);
+            Console.WriteLine($"Площадь окружности: {ShapeCircel.GetArea(), -12}");
+            Console.WriteLine($"Площадь квадрата: {ShapeSquare.GetArea(), -12}");
         }
     }
 }
