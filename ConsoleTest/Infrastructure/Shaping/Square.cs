@@ -1,7 +1,7 @@
 ﻿using System;
 using ConsoleTest.Infrastructure;
 
-namespace ConsoleTest.Service.Shaping
+namespace ConsoleTest.Infrastructure.Shaping
 {
    
     internal class Square : Shape
