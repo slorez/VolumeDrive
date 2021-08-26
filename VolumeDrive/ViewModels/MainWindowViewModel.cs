@@ -8,7 +8,7 @@ namespace VolumeDrive.ViewModels
     internal class MainWindowViewModel : ViewModel
     {
         #region Заголовок окна
-        private string _Title;
+        private string _Title = "Test Tititl";
         /// <summary> Заголовок окна </summary>
         public string Title
         {
